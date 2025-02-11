@@ -1,0 +1,4 @@
+services:
+  app:
+    build: .
+    command: ./docker/dotnet-install.sh --channel 9.0.200 && ./docker/set-env.sh
